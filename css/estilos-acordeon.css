@@ -1,0 +1,32 @@
+/*
+*{
+    font-family: "Lato";
+    margin: 0;
+}
+*/
+dl{
+    margin: 110px 0 0 155px;
+    width: 750px;
+}
+dt{
+    padding: 15px 10px;
+    text-align: center;
+}
+dt{
+    background: #c07e31;
+    color: #fff;
+    border-bottom: 1px solid #845621;
+    border-top: 1px solid #ef9f43;
+    cursor: pointer;
+}
+dd{
+    background: rgba(255, 255, 255, 0.9);
+    display: none;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 15px 25px;
+    text-align: justify;
+}
+dd p{
+    margin: 0 0 20px 0;
+}

@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+    background: url(../images/back.png);
+    overflow-x: hidden;
+}
+/*Para la imagen de bienvenida*/
+.bienvenida{
+    background: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2222;
+}
+.imgBienvenida{
+    background: url(../images/bienvenida.png) no-repeat;
+    width: 690px;
+    height: 400px;
+    overflow: hidden;
+    
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(199, 148, 128, 0.68);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(199, 148, 128, 0.68);
+    box-shadow: 0px 0px 10px 0px rgba(199, 148, 128, 0.68);
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    
+}
+.btnComenzar{
+    background: url(../images/btn-comenzar.png) no-repeat;
+    width: 143px;
+    height: 35px;
+    position: fixed;
+    bottom: -4px;
+    margin: 0 40%;
+    cursor: pointer;
+}
+/*Final bienvenida*/
+
+/*Modificar el alto conforme a la medida de la infografía*/
+.contenedor{
+    width: 1000px;
+    height: auto; 
+    margin: 0 auto;
+}
+.infografia{
+    width: 1000px;
+/*    background: url(../images/Infografia-UD1.png) no-repeat;*/
+}
+.top{
+    background: url(../images/top.png) no-repeat;
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+.nombreFranja{
+    margin: 23px 0 0 550px;
+    position: absolute;
+    color: #fff;
+    padding: 13px 20px;
+    line-height: 160%;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+.btns{
+    height: 80px;
+    float: right;
+    position: absolute;
+    bottom: -40px;
+    right: 30px;
+    z-index: 2;
+}
+.btnTop{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    float: left;
+    margin: 0 5px 0 0;
+    cursor: pointer;
+}
+.footer{
+    background: url(../images/footer.png) no-repeat;
+    width: 1000px;
+    height: 92px;
+    margin: 0 0 15px 0;
+    
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+.footer .cred{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    text-decoration: underline;
+    font-size: 12px;
+    margin: 74px 0 0 470px;
+}
+
+.btnTop img{
+    width: 70px;
+    height: 70px;
+}
+.pdf{
+    background: url(../images/bt_pdf.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.pdf{
+    background: url(../images/bt_pdf.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.popUp{
+    background: url(../images/bt_popUp.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.web{
+    background: url(../images/bt_web.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+/* Start Actividad 1 */
+.act1{
+    height: 535px;
+    width: 1000px;
+    background: url(../images/back-Sec01.png) no-repeat;
+    margin: 0;
+    position: relative;
+}
+.act1 .secAct1{
+    color: #0071bc;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    padding: 18px 0 0 190px;
+}
+.act1 .Act1-Titulo{
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    margin: 22px 0 0 194px;
+}
+.act1 .Act1-Contenido{
+    position: absolute;
+    padding: 90px 40px 0px 152px;
+}
+.act1 .insAct01{
+    width: 236px;
+    text-align: justify;
+    line-height: 140%;
+    margin: 51px 0 0 0;
+}
+.act1 .btn-act1{
+    margin: 0 0 0 -19px;
+    position: relative;
+    transform-origin: 20%;
+}
+.act1 .acciones-act1{
+    width: 360px;
+    height: auto;
+    margin: -62px -480px 0 0;
+    float: right;
+    position: relative;
+}
+.act1 .acciones-act1 ul{
+    margin: 0;
+}
+.act1 .acciones-act1 li{
+    width: 290px;
+    height: 60px;
+    list-style: none;
+    text-align: center;
+    margin: 0 0 4px 0;
+}
+/* Fin Actividad 1 */
+
+/* Start tema 1 */
+.tema1{
+    height: 1087px;
+    width: 1000px;
+    background: url(../images/back-Sec02.png) no-repeat;
+    margin: 0 0 0 0;
+    position: relative;
+}
+.tema1 .Tema1-Titulo{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px 0 0 100px;
+}
+.tema1-acordeon{
+    margin: 200px 0 0 58px;
+}
+.AdvHand-T1{
+    background: url(../images/pointer.png) no-repeat;
+    width: 86px;
+    height: 90px;
+    position: absolute;
+    margin: 216px 0 0 150px;
+}
+/* Fin tema 1 */
+
+/* Start tema 2 */
+.tema2{
+    height: 1221px;
+    width: 1000px;
+    background: url(../images/back-Sec03.png) no-repeat;
+    margin: 0;
+    position: relative;
+}
+.tema2 .Tema2-Titulo{
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px 0 0 100px;
+}
+.T2cont1{
+    width: 203px;
+    height: 174px;
+    margin: 176px 0 0 133px;
+    float: left;
+    cursor: pointer;
+}
+.T2cont2{
+    width: 203px;
+    height: 174px;
+    margin: 176px 0 0 35px;
+    float: left;
+    cursor: pointer;
+}
+.talkerVideo{
+    width: 379px;
+    height: 238px;
+    background: url(../images/T2-Talk-Video.png) no-repeat;
+    position: relative;
+    margin: 193px 0 0 590px;
+}
+.talkerVideo img{
+    margin: 98px 0 0 97px;
+    cursor: pointer;
+}
+.T2-IconosCont{
+    
+}
+.menuIconos{
+    margin: -30px 0 0 125px;
+    z-index: 2;
+    position: relative;
+}
+.menuIconos img{
+    cursor: pointer;
+}
+.contIc{
+    text-align: justify;
+    margin: -3px 0 0 102px;
+    line-height: 160%;
+    height: 633px;
+    overflow: hidden;
+}
+.tituloSecIco{
+    color: #0071bc;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.recuerdeBtn{
+    background: url(../images/bt_recuerde.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+    float: right;
+}
+.contIco01{
+    background: url(../images/T2-Back01.png) no-repeat;
+    width: 780px;
+    height: 370px;
+    padding: 50px 50px 0 40px;
+}
+.contIco02{
+    background: url(../images/T2-Back02.png) no-repeat;
+    width: 780px;
+    height: 440px;
+    padding: 50px 50px 0 40px;
+}
+.contIco03{
+    background: url(../images/T2-Back03.png) no-repeat;
+    width: 780px;
+    height: 480px;
+    padding: 50px 50px 0 40px;
+}
+.contIco04{
+    background: url(../images/T2-Back04.png) no-repeat;
+    width: 780px;
+    height: 585px;
+    padding: 50px 50px 0 40px;
+}
+.contIco05{
+    background: url(../images/T2-Back05.png) no-repeat;
+    width: 780px;
+    height: 460px;
+    padding: 50px 50px 0 40px;
+}
+.contIc a{
+    color: #002bff;
+}
+.TalkAdv{
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin: -160px 40px 0 0;
+    float: right;
+}
+/* Fin tema 2 */
+
+/* Start Actividad 2 */
+.act2{
+    height: 460px;
+    width: 1000px;
+    background: url(../images/back-Sec04.png) no-repeat;
+    margin: 0;
+    position: relative;
+    line-height: 140%;
+}
+.act2 .secAct2{
+    color: #0071bc;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    padding: 13px 0 0 180px;
+}
+.act2 .Act2-Titulo{
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    margin: 24px 0 0 190px;
+    text-align: center;
+}
+.btn-act2a{
+	margin: 12px 0 0 0;
+}
+.act2 .Act2-Contenido{
+    position: absolute;
+    margin: 90px 0 0 146px;
+    width: 800px;
+}
+.act2 .Act2-Contenido p{
+    margin: 10px 0;
+}
+.act2 .Act2-Contenido li{
+    margin: 0 0 10px 0;
+}
+.act2 .acciones-act2{
+    width: 360px;
+    height: auto;
+    margin: -142px -20px 0 0;
+    float: right;
+    position: relative;
+}
+.act2 .acciones-act2 ul{
+    margin: 0;
+}
+.act2 .acciones-act2 li{
+    width: 290px;
+    height: 60px;
+    list-style: none;
+    text-align: center;
+    margin: 0 0 4px 0;
+}
+/* Fin Actividad 2 */
+
+
+
+.delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.delay-4s {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+.delay-6s {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

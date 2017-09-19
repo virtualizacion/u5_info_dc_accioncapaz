@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos-cont.css">
+    
+    <script src="../js/jquery-3.2.0.min.js"></script>
+    <script src="../js/jquery-ui.js"></script>
+    <script>
+        $("document").ready(function(){
+            $("#TX1-T4, #TX2-T4, #TX3-T4, #TX4-T4").hide();
+            
+            $("#F01").click(function(){
+                $(this).css("opacity",".3");
+                $("#TX1-T4").fadeIn();
+                $(".adv, #TX2-T4, #TX3-T4, #TX4-T4").hide();
+            });
+            $("#F02").click(function(){
+                $(this).css("opacity",".3");
+                $("#TX2-T4").fadeIn();
+                $(".adv, #TX1-T4, #TX3-T4, #TX4-T4").hide();
+            });
+            $("#F03").click(function(){
+                $(this).css("opacity",".3");
+                $("#TX3-T4").fadeIn();
+                $(".adv,  #TX1-T4, #TX2-T4, #TX4-T4").hide();
+            });
+            $("#F04").click(function(){
+                $(this).css("opacity",".3");
+                $("#TX4-T4").fadeIn();
+                $(".adv, #TX1-T4, #TX2-T4, #TX3-T4").hide();
+            });
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="contenidoSolo">
+       
+        <div class="cont-T4">
+           <h2 style="margin: 5px 0 5px 0">Experiencia internacional</h2>
+            <div class="contInter">
+                <div class="banderas">
+                    <div class="flag" id="F01"><img src="images/T4-Cont03-Flag1.png"></div>
+                    <div class="flag" id="F02"><img src="images/T4-Cont03-Flag2.png"></div>
+                    <div class="flag" id="F03"><img src="images/T4-Cont03-Flag3.png"></div>
+                    <div class="flag" id="F04"><img src="images/T4-Cont03-Flag4.png"></div>
+                </div>
+                <div class="adv">Haga clic en cada bandera para ampliar la información.</div>
+                <div class="txtDescr">
+                    <div class="txt01-T4" id="TX1-T4">
+                    <p><b>Irlanda del Norte</b></p>
+                    <p>El proceso de paz duró más de una década. Fue un proceso sin cese de hostilidades. Hubo una declaración unilateral que abrió espacios políticos al Sinn Fein y concluyó en un Acuerdo de Paz (abril 1998). En 2005, el IRA renunció a la lucha armada.</p>
+                    </div>
+                    <div class="txt02-T4" id="TX2-T4">
+                    <p><b>El Salvador</b></p>
+                    <p>los encuentros exploratorios se inician en 1984. Se llega a un acuerdo de paz con el Frente Farabundo Mary para la Liberación Nacional (FMNL) en abril de 1991. Posteriormente, en diciembre de ese mismo año, se llega a un acuerdo sobre el cese al fuego y su verificación.</p>
+                    </div>
+                    <div class="txt03-T4" id="TX3-T4">
+                    <p><b>Sudáfrica</b></p>
+                    <p>El proceso de paz duró cinco años, sin que en ese periodo de tiempo se acordara un cese al fuego.</p>
+                    </div>
+                    <div class="txt04-T4" id="TX4-T4">
+                    <p><b>Angola (Cabinda)</b></p>
+                    <p>la guerra civil en Angola duró 26 años. En agosto del 2002 se firmó el acuerdo de paz, que comprende, como puntos principales: ley de amnistia, cese de hostilidades, desmilitarización y reintegración. No existió un acuerdo de cese de hos0lidades durante el proceso de paz.</p>
+                    </div>
+                </div>
+            </div>
+            <p>Los siguientes acuerdos de paz también se firman sin pasar antes por un alto al fuego o cese de hostilidades: Chad (FUC), Indonesia (Aceh), Mali (Tuaregs), y Sudan (Este).</p>
+        </div>
+    </div>
+</body>
+</html>
